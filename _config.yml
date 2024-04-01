@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Guoyue"
+title                    : "Guoyue Xu"
 title_separator          : "-"
 name                     : &name "Guoyue Xu"
 description              : &description "personal description"
@@ -22,7 +22,7 @@ baseurl                  : "" # the subpath of your site, e.g. "/blog"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Guoyue's Website"
+  name             : "Guoyue Xu"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
   location         : "South Bend, IN USA"
