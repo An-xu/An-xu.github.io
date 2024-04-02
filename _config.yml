@@ -24,10 +24,10 @@ author:
   avatar           : "profile.png"
   name             : "Guoyue Xu"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Mechanical engineering Ph.D. student, Electrical Engineering M.S."
   location         : "South Bend, IN USA"
   employer         : "University of Notre Dame"
-  uri              : # URL
+  uri              : "https://ame.nd.edu"
   email            : "gxu3@nd.edu"
 
   # Academic websites
