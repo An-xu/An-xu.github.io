@@ -32,45 +32,45 @@ author:
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=ntl9gCYAAAAJ&hl=en&authuser=1"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  orcid            : "https://orcid.org/0000-0002-4831-0820"
+#  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+#  researchgate     : # URL
 
   # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
-  codepen          : # Username
-  dribbble         : # Username
-  github           : "academicpages"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+#  bitbucket        : # Username - Update with your username on the site
+#  codepen          : # Username
+#  dribbble         : # Username
+#  github           : "academicpages"
+#  kaggle           : # Username
+#  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
 
-  # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
-  facebook         : # Username
-  flickr           : # Username
-  foursquare       : # Username
-  goodreads        : # Username
-  google_plus      : # Username
-  keybase          : # Username
-  instagram        : # Username
-  lastfm           : # Username
-  linkedin         : # Username
-  mastodon         : # URL
-  medium           : # URL
-  pinterest        : # Username
-  soundcloud       : # Username
-  steam            : # Username
-  telegram         : # URL
-  tumblr           : # Username
-  twitter          : "UniofOxford"  # Replace this with your X / Twitter handle
-  vine             : # Username
-  weibo            : # Username
-  wikipedia        : # Username
-  xing             : # Username
-  youtube          : # Username
-  zhihu            : # URL
+#  # Social media
+#  bluesky          : "bsky.app" # Replace this with you Bluesky username
+#  facebook         : # Username
+#  flickr           : # Username
+#  foursquare       : # Username
+#  goodreads        : # Username
+#  google_plus      : # Username
+#  keybase          : # Username
+#  instagram        : # Username
+#  lastfm           : # Username
+#  linkedin         : # Username
+#  mastodon         : # URL
+#  medium           : # URL
+#  pinterest        : # Username
+#  soundcloud       : # Username
+#  steam            : # Username
+#  telegram         : # URL
+#  tumblr           : # Username
+#  twitter          : "UniofOxford"  # Replace this with your X / Twitter handle
+#  vine             : # Username
+#  weibo            : # Username
+#  wikipedia        : # Username
+#  xing             : # Username
+#  youtube          : # Username
+#  zhihu            : # URL
 
 
 # Site Settings
@@ -280,7 +280,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
