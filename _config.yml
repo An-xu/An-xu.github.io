@@ -23,7 +23,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Guoyue Xu"
-  pronouns         : # example: "she/her"  
+#  pronouns         : # example: "she/her"
   bio: |
     Mechanical Engineering Ph.D., 
     Electrical Engineering M.S.
@@ -58,7 +58,7 @@ author:
 #  keybase          : # Username
 #  instagram        : # Username
 #  lastfm           : # Username
-#  linkedin         : # Username
+  linkedin         : guoyue-xu-106b62105
 #  mastodon         : # URL
 #  medium           : # URL
 #  pinterest        : # Username
