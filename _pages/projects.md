@@ -60,7 +60,6 @@ This project focuses on rethinking reconstruction-based anomaly detection in bra
 Additionally, a dataset pre-processing strategy is proposed to amplify the intensity contrast between normal and abnormal areas, further improving anomaly detection. Tested on the BraTS21 (T2, FLAIR) and MSULB datasets, the method achieves state-of-the-art performance, with over 10% improvement in Dice coefficient and Area Under the Precision-Recall Curve (AUPRC). 
 
 This project not only advances anomaly detection methodologies but also emphasizes the importance of image quality assessment in medical diagnostics.
-<img src="../images/MedADmodel.png" alt="Model Architecture of MedAD-IQA"/><br>
 
 <table>
   <tr>
