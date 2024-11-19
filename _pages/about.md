@@ -17,6 +17,7 @@ Research interests:
   - Automated Laboratory Systems
   - Autonomous Liquid Distribution Systems
   - [Bayesian Optimization](projects.md#Bayesian)
+  - [Anomaly Detection](projects.md#brain-mri-anomaly-detection)
 
 - **Antenna and RF Simulation** 
   - UWB Antenna Simulation  

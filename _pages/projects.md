@@ -6,10 +6,19 @@ author_profile: true
 ---
 
 {% include base_path %}
+
+
 ## [High-Performance Thermoelectric Materials via Extrusion Printing and Machine Learning](#Bayesian)
 
 This project focuses on leveraging extrusion printing and machine learning to revolutionize thermoelectric device fabrication. Traditional manufacturing methods are costly and restricted to simple geometries, limiting their broader application. By integrating high-throughput experimentation with Bayesian optimization, this work accelerates the optimization of ink formulations and printing parameters, enabling the fabrication of complex 3D thermoelectric structures with exceptional performance. The approach demonstrates a significant leap in thermoelectric materials research, achieving an ultrahigh room temperature zT of 1.3 in printed BiSbTe-based materials—the highest reported for printed thermoelectrics.
-<img src="../images/printingbayesian.gif" alt="Workflow of the machine learning-assisted extrusion printing of thermoelectric inks"/><br>
+<table>
+  <tr>
+    <td align="center">
+      <img src="../images/printingbayesian.gif" alt="Workflow of the machine learning-assisted extrusion printing of thermoelectric inks"/><br>
+    <b>Workflow of the machine learning-assisted extrusion printing of thermoelectric inks</b>
+    </td>  
+    </tr>
+</table>
 
 ## Key Contributions
 
@@ -44,19 +53,20 @@ This project focuses on the development and enhancement of a software-defined ra
 
 This project offers a comprehensive learning experience that combines conceptual depth, technical expertise, and practical application, providing students with the skills and knowledge to excel in modern RF communication environments.
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+## [Enhanced Anomaly Detection in Brain MRI Using Image Quality Assessment](https://an-xu.github.io/MedAD-IQA.github.io/)<a id="brain-mri-anomaly-detection"></a>
 
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+This project focuses on rethinking reconstruction-based anomaly detection in brain MRI from the perspective of image quality assessment, a less explored yet impactful angle in medical imaging. By introducing a novel fusion quality loss function combining Structural Similarity Index Measure (SSIM) loss and ℓ1 loss, the project significantly enhances the reconstruction quality of abnormal brain regions. 
+
+Additionally, a dataset pre-processing strategy is proposed to amplify the intensity contrast between normal and abnormal areas, further improving anomaly detection. Tested on the BraTS21 (T2, FLAIR) and MSULB datasets, the method achieves state-of-the-art performance, with over 10% improvement in Dice coefficient and Area Under the Precision-Recall Curve (AUPRC). 
+
+This project not only advances anomaly detection methodologies but also emphasizes the importance of image quality assessment in medical diagnostics.
+<img src="../images/MedADmodel.png" alt="Model Architecture of MedAD-IQA"/><br>
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="../images/MedADmodel.png" alt="Model Architecture of MedAD-IQA"/><br>
+      <b>Model Architecture of MedAD-IQA</b>
+    </td>  
+    </tr>
+</table>
