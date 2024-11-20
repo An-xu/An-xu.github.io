@@ -22,6 +22,7 @@ Research interests:
 - **Antenna and RF Simulation** 
   - UWB Antenna Simulation  
   - RF Board Simulation
+    - [Power Amplifier Design](projects.md#Power-Amplifier-Design)
   - [SDR Wireless Communication Systems](projects.md#radioware)
 
 - **MD Simulation and Materials Research** 
