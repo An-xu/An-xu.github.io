@@ -8,7 +8,7 @@ author_profile: true
 {% include base_path %}
 
 
-## [High-Performance Thermoelectric Materials via Extrusion Printing and Machine Learning](#Bayesian)
+## [High-Performance Thermoelectric Materials via Extrusion Printing and Machine Learning](https://pubs.rsc.org/en/content/articlehtml/2024/ta/d4ta03062a)<a id="Bayesian"></a>
 
 This project focuses on leveraging extrusion printing and machine learning to revolutionize thermoelectric device fabrication. Traditional manufacturing methods are costly and restricted to simple geometries, limiting their broader application. By integrating high-throughput experimentation with Bayesian optimization, this work accelerates the optimization of ink formulations and printing parameters, enabling the fabrication of complex 3D thermoelectric structures with exceptional performance. The approach demonstrates a significant leap in thermoelectric materials research, achieving an ultrahigh room temperature zT of 1.3 in printed BiSbTe-based materials—the highest reported for printed thermoelectrics.
 <table>
