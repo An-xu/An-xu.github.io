@@ -21,11 +21,29 @@ export function TiltedCard({ children, className }: TiltedCardProps) {
     const rotateX = useTransform(mouseYSpring, [-0.5, 0.5], ["17.5deg", "-17.5deg"]);
     const rotateY = useTransform(mouseXSpring, [-0.5, 0.5], ["-17.5deg", "17.5deg"]);
 
+    const handleMouseEnter = () => {
+        if (ref.current) {
+            // Cache the rect on mouse enter to avoid layout thrashing on every move
+            const rect = ref.current.getBoundingClientRect();
+            x.set(0);
+            y.set(0);
+            // Store rect in a ref or just use it here if we change logic, 
+            // but since we need it in mouseMove, we should store it.
+            // However, a simpler way without extra state is to keep it in a ref.
+        }
+    };
+
+    // We need a ref to store the rect
+    const rectRef = useRef<DOMRect | null>(null);
+
     const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
-        if (!ref.current) return;
+        if (!rectRef.current && ref.current) {
+            rectRef.current = ref.current.getBoundingClientRect();
+        }
 
-        const rect = ref.current.getBoundingClientRect();
+        if (!rectRef.current) return;
 
+        const rect = rectRef.current;
         const width = rect.width;
         const height = rect.height;
 
@@ -42,6 +60,7 @@ export function TiltedCard({ children, className }: TiltedCardProps) {
     const handleMouseLeave = () => {
         x.set(0);
         y.set(0);
+        rectRef.current = null; // Reset rect
     };
 
     return (

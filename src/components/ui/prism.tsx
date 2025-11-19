@@ -22,7 +22,7 @@ export function Prism({ className, children }: PrismProps) {
                         repeat: Infinity,
                         ease: "linear",
                     }}
-                    className="absolute -top-[50%] -left-[50%] h-[200%] w-[200%] opacity-30 blur-[100px]"
+                    className="absolute -top-[50%] -left-[50%] h-[200%] w-[200%] opacity-30 blur-[100px] will-change-transform"
                     style={{
                         background: "conic-gradient(from 0deg at 50% 50%, #ff0000, #00ff00, #0000ff, #ff0000)",
                     }}
