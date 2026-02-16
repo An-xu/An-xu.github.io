@@ -16,7 +16,7 @@ export default function Projects() {
                     <section id="automated-lab" className="scroll-mt-24">
                         <div className="rounded-2xl border border-white/10 bg-white/5 p-8 md:p-12">
                             <h2 className="mb-6 text-2xl font-bold text-teal-400 md:text-3xl">
-                                <a href="https://an-xu.github.io/SDL_LCST.github.io/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                                <a href="https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/aidi.202500177" target="_blank" rel="noopener noreferrer" className="hover:underline">
                                     Automated Laboratory Systems
                                 </a>
                             </h2>
