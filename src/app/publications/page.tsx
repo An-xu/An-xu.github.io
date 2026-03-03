@@ -5,9 +5,9 @@ const publications = [
     {
         title: "Self-Driving Laboratory Optimizes the Lower Critical Solution Temperature of Thermoresponsive Polymers",
         date: "2025-09-15",
-        venue: "arXiv",
+        venue: "Advanced Intelligent Discovery",
         description: "Self-Driving Laboratory Optimizes the Lower Critical Solution Temperature of Thermoresponsive Polymers.",
-        link: "https://arxiv.org/abs/2509.05351",
+        link: "https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/aidi.202500177",
     },
     {
         title: "Active learning-guided exploration of thermally conductive polymers under strain",
