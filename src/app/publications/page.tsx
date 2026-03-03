@@ -26,9 +26,9 @@ const publications = [
     {
         title: "Rethinking Medical Anomaly Detection in Brain MRI: An Image Quality Assessment Perspective",
         date: "2024-08-15",
-        venue: "arXiv",
+        venue: "IEEE International Conference on Bioinformatics and Biomedicine (BIBM) 2025",
         description: "Rethinking Medical Anomaly Detection in Brain MRI.",
-        link: "https://arxiv.org/abs/2408.08228",
+        link: "https://ieeexplore.ieee.org/abstract/document/11356914",
     },
     {
         title: "Harvesting Electromagnetic Energy in Air: A Wireless Energy Harvester at 2.45 GHz Using Inexpensive Materials",
