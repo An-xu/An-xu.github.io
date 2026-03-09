@@ -42,20 +42,14 @@ export default function CV() {
 
                 <div className="space-y-12 rounded-2xl border border-white/10 bg-white/5 p-8 md:p-12 backdrop-blur-sm">
 
-                    {/* Professional Summary */}
+                    {/* Summary */}
                     <section>
-                        <h2 className="mb-6 text-2xl font-bold text-blue-400 border-b border-white/10 pb-2">Professional Summary</h2>
-                        <ul className="list-disc pl-5 space-y-3 text-gray-300">
-                            <li>
-                                <strong className="text-white">PhD candidate in Mechanical Engineering</strong> with expertise in <strong className="text-white">AI for Science (AI4S)</strong>, focusing on LLM multi-agent systems, autonomous scientific discovery, and Bayesian optimization.
-                            </li>
-                            <li>
-                                <strong className="text-white">Proven impact:</strong> Developed self-driving laboratory pipelines that improved polymer discovery efficiency by <strong className="text-white">5×</strong> and engineered Bayesian optimization frameworks reducing experiments by <strong className="text-white">80%</strong>.
-                            </li>
-                            <li>
-                                <strong className="text-white">Expertise:</strong> LLM multi-agent orchestration, scientific reasoning agents, Bayesian optimization, computer vision, and probabilistic models.
-                            </li>
-                        </ul>
+                        <h2 className="mb-6 text-2xl font-bold text-blue-400 border-b border-white/10 pb-2">Summary</h2>
+                        <p className="text-gray-300 leading-relaxed">
+                            Machine Learning Engineer specializing in building production-grade autonomous systems and end-to-end ML pipelines.
+                            Expertise in <strong className="text-white">LLM multi-agent orchestration</strong>, <strong className="text-white">closed-loop Bayesian optimization</strong>, and <strong className="text-white">high-dimensional neural architectures</strong> (GNNs, Transformers).
+                            Proven track record in shipping full-stack AI applications, including a polymer discovery platform serving <strong className="text-white">1M+ candidates</strong> and hardware-in-the-loop (HIL) systems that reduced operational workloads by <strong className="text-white">80%</strong>.
+                        </p>
                     </section>
 
                     {/* Education */}
@@ -68,7 +62,7 @@ export default function CV() {
                                     <span className="text-gray-400">2023 -- Present</span>
                                 </div>
                                 <p className="text-gray-400 italic">University of Notre Dame, Notre Dame, IN</p>
-                                <p className="text-gray-300 mt-1"><strong className="text-white">Focus:</strong> Machine Learning for Materials Discovery, Bayesian Optimization, Neural Networks</p>
+                                <p className="text-gray-300 mt-1"><strong className="text-white">Focus:</strong> Machine Learning, Bayesian Optimization, Autonomous Systems, Neural Networks</p>
                             </div>
 
                             <div>
@@ -86,143 +80,8 @@ export default function CV() {
                                 </div>
                                 <p className="text-gray-400 italic">National Chung Cheng University, Taiwan</p>
                                 <p className="text-gray-300 mt-1"><strong className="text-white">GPA:</strong> 3.83/4.3 (Top 3)</p>
-                                <p className="text-gray-300"><strong className="text-white">Honors:</strong> President Scholarship (Top 2%), Director Scholarship (Top 5%)</p>
                             </div>
                         </div>
-                    </section>
-
-                    {/* Research & AI4Science Projects */}
-                    <section>
-                        <h2 className="mb-6 text-2xl font-bold text-blue-400 border-b border-white/10 pb-2">Research & AI4Science Projects</h2>
-                        <div className="space-y-8">
-
-                            <div>
-                                <div className="flex justify-between items-baseline flex-wrap">
-                                    <h3 className="text-xl font-bold text-white">LLM Multi-Agent System for Polymer Thermal Conductivity (TC-CoScientist)</h3>
-                                    <span className="text-gray-400">2025 -- Present</span>
-                                </div>
-                                <p className="text-gray-400 italic mb-2">University of Notre Dame</p>
-                                <ul className="list-disc pl-5 space-y-2 text-gray-300">
-                                    <li>Designed an LLM-powered orchestration agent to autonomously manage polymer thermal conductivity discovery.</li>
-                                    <li>Integrated molecular dynamics simulations, graph neural networks, and interpretable reasoning into a closed-loop self-driving discovery workflow.</li>
-                                </ul>
-                            </div>
-
-                            <div>
-                                <div className="flex justify-between items-baseline flex-wrap">
-                                    <h3 className="text-xl font-bold text-white">Vision Language Model for Laboratory Experiment Understanding</h3>
-                                    <span className="text-gray-400">2025 -- Present</span>
-                                </div>
-                                <p className="text-gray-400 italic mb-2">University of Notre Dame</p>
-                                <ul className="list-disc pl-5 space-y-2 text-gray-300">
-                                    <li>Developed a protocol-guided VLA model to align experimental SOPs with lab figures.</li>
-                                    <li>Contributed to emerging AI4Science efforts in scientific experiment understanding.</li>
-                                </ul>
-                            </div>
-
-                            <div>
-                                <div className="flex justify-between items-baseline flex-wrap">
-                                    <h3 className="text-xl font-bold text-white">Autonomous Materials Discovery System (Self-driving labs)</h3>
-                                    <span className="text-gray-400">2023 -- Present</span>
-                                </div>
-                                <p className="text-gray-400 italic mb-2">University of Notre Dame</p>
-                                <ul className="list-disc pl-5 space-y-2 text-gray-300">
-                                    <li>Designed and built a low-cost, Arduino-based self-driving laboratory for autonomous polymer and thermo-responsive optimization.</li>
-                                    <li>Integrated robotic fluid handling PID-controlled thermoelectric heating/cooling and in-situ optical sensing.</li>
-                                    <li>Implemented a closed-loop Bayesian optimization pipeline using Gaussian Process Regression (GPR) to autonomously explore multi-component chemical spaces.</li>
-                                    <li>Achieved reproducible, self-correcting optimization of thermoresponsive polymer LCST while reducing experimental requirements by <strong className="text-white">80%</strong>.</li>
-                                </ul>
-                            </div>
-
-                            <div>
-                                <div className="flex justify-between items-baseline flex-wrap">
-                                    <h3 className="text-xl font-bold text-white">Medical Anomaly Detection in Brain MRI</h3>
-                                    <span className="text-gray-400">2024</span>
-                                </div>
-                                <p className="text-gray-400 italic mb-2">University of Notre Dame</p>
-                                <ul className="list-disc pl-5 space-y-2 text-gray-300">
-                                    <li>Developed a novel image quality assessment (IQA) framework for medical anomaly detection in brain MRI scans, reframing anomaly detection as an image quality problem to improve diagnostic accuracy.</li>
-                                    <li>Implemented deep learning models combining convolutional neural networks with quality assessment metrics, achieving state-of-the-art performance on multiple brain MRI datasets.</li>
-                                    <li>Built comprehensive evaluation pipeline with multiple benchmark datasets, demonstrating superior performance over traditional anomaly detection methods in medical imaging.</li>
-                                </ul>
-                            </div>
-
-                            <div>
-                                <div className="flex justify-between items-baseline flex-wrap">
-                                    <h3 className="text-xl font-bold text-white">GAN-based Text Generation</h3>
-                                    <span className="text-gray-400">2024</span>
-                                </div>
-                                <p className="text-gray-400 italic mb-2">University of Notre Dame</p>
-                                <ul className="list-disc pl-5 space-y-2 text-gray-300">
-                                    <li>Designed a four-layer generative adversarial network (GAN) architecture for text generation and stabilised training using LeakyReLU activations and gradient penalty regularization.</li>
-                                    <li>Implemented beam search and temperature scaling decoders for GPT-2 embeddings, increasing text quality and diversity as measured by BLEU scores and t-SNE visualization.</li>
-                                    <li>Built a comprehensive evaluation framework incorporating BLEU scores, t-SNE plots and qualitative assessments to benchmark against baseline models.</li>
-                                </ul>
-                            </div>
-
-                        </div>
-                    </section>
-
-                    {/* Research & Engineering Experience */}
-                    <section>
-                        <h2 className="mb-6 text-2xl font-bold text-blue-400 border-b border-white/10 pb-2">Research & Engineering Experience</h2>
-                        <div className="space-y-8">
-
-                            <div>
-                                <div className="flex justify-between items-baseline flex-wrap">
-                                    <h3 className="text-xl font-bold text-white">Signal Processing & SDR Systems Engineer</h3>
-                                    <span className="text-gray-400">2021 -- 2022</span>
-                                </div>
-                                <p className="text-gray-400 italic mb-2">University of Notre Dame, Notre Dame, IN</p>
-                                <ul className="list-disc pl-5 space-y-2 text-gray-300">
-                                    <li>Designed and implemented a <strong className="text-white">software-defined radio (SDR) communication system</strong> for hands-on instruction and research.</li>
-                                    <li>Built a progressive learning and prototyping framework that transitioned from wired transmission models to full wireless implementations, addressing propagation, interference, and noise challenges in congested RF environments.</li>
-                                    <li>Developed an automated Python/C-based control and data acquisition pipeline for real-time signal testing and debugging, reducing manual workload by <strong className="text-white">70%</strong> and improving system throughput.</li>
-                                </ul>
-                            </div>
-
-                            <div>
-                                <div className="flex justify-between items-baseline flex-wrap">
-                                    <h3 className="text-xl font-bold text-white">Project Lead & RF Engineer</h3>
-                                    <span className="text-gray-400">2019 -- 2020</span>
-                                </div>
-                                <p className="text-gray-400 italic mb-2">National Chung Cheng University, Taiwan</p>
-                                <ul className="list-disc pl-5 space-y-2 text-gray-300">
-                                    <li>Led a team to <strong className="text-white">1st place</strong> in the 2019 IEEE MTT-S Student Design Competition by developing a wearable microwave energy harvester.</li>
-                                    <li>Designed and simulated a high-performance patch antenna with a <strong className="text-white">−24.4 dB</strong> return loss at 2.45 GHz and <strong className="text-white">5.18 dB</strong> maximum gain using HFSS.</li>
-                                    <li>Engineered a 50 Ω matched rectifier circuit with Schottky diodes, achieving high RF-to-DC conversion efficiency and validating performance through VNA analysis.</li>
-                                </ul>
-                            </div>
-
-                        </div>
-                    </section>
-
-                    {/* Awards & Recognition */}
-                    <section>
-                        <h2 className="mb-6 text-2xl font-bold text-blue-400 border-b border-white/10 pb-2">Awards & Recognition</h2>
-                        <ul className="space-y-4 text-gray-300">
-                            <li>
-                                <div className="flex justify-between items-baseline flex-wrap">
-                                    <strong className="text-white">President Scholarship (Top 2%) & Director Scholarship (Top 5%, 2×)</strong>
-                                    <span className="text-gray-400">2019 -- 2021</span>
-                                </div>
-                                <p className="text-sm text-gray-500">National Chung Cheng University</p>
-                            </li>
-                            <li>
-                                <div className="flex justify-between items-baseline flex-wrap">
-                                    <strong className="text-white">Professor Chun-Hsiung Chen Scholarship</strong>
-                                    <span className="text-gray-400">2020</span>
-                                </div>
-                                <p className="text-sm text-gray-500">Academic Excellence Recognition</p>
-                            </li>
-                            <li>
-                                <div className="flex justify-between items-baseline flex-wrap">
-                                    <strong className="text-white">1st Place Winner</strong>
-                                    <span className="text-gray-400">2019</span>
-                                </div>
-                                <p className="text-sm text-gray-500">IEEE Microwave Theory and Techniques Society Student Design Competition</p>
-                            </li>
-                        </ul>
                     </section>
 
                     {/* Technical Skills */}
@@ -230,22 +89,168 @@ export default function CV() {
                         <h2 className="mb-6 text-2xl font-bold text-blue-400 border-b border-white/10 pb-2">Technical Skills</h2>
                         <div className="grid gap-6 md:grid-cols-2">
                             <div>
-                                <h3 className="mb-2 font-bold text-white">Programming</h3>
-                                <p className="text-gray-300">Python: PyTorch, TensorFlow, Scikit-learn, NumPy, Pandas, Matplotlib, Jupyter</p>
+                                <h3 className="mb-2 font-bold text-white">Core ML</h3>
+                                <p className="text-gray-300">PyTorch, TensorFlow, Scikit-learn, Hugging Face, Gaussian Processes, Active Learning</p>
                             </div>
                             <div>
-                                <h3 className="mb-2 font-bold text-white">Machine Learning</h3>
-                                <p className="text-gray-300">Deep Learning: CNNs, GANs, Transformers, Bayesian Optimization, Gaussian Processes, Active Learning</p>
+                                <h3 className="mb-2 font-bold text-white">System &amp; Infra</h3>
+                                <p className="text-gray-300">MLOps: Docker, Git, Linux, HPC (SLURM), Multi-GPU Distributed Training, CI/CD basics</p>
                             </div>
                             <div>
-                                <h3 className="mb-2 font-bold text-white">AI4Science</h3>
-                                <p className="text-gray-300">LLM & Multi-Agent Systems: Scientific reasoning agents, autonomous orchestration, tool-augmented LLMs</p>
+                                <h3 className="mb-2 font-bold text-white">Data &amp; Dev</h3>
+                                <p className="text-gray-300">Python (Expert), SQL, FastAPI, Streamlit, NumPy, Pandas, Matplotlib, C, Bash</p>
                             </div>
                             <div>
-                                <h3 className="mb-2 font-bold text-white">Electrical Engineering</h3>
-                                <p className="text-gray-300">RF & Microwave: Antenna design (HFSS, CST), RF energy harvesting, impedance matching, rectifier circuits, VNA characterization, Advanced Design System (ADS)</p>
+                                <h3 className="mb-2 font-bold text-white">Architectures</h3>
+                                <p className="text-gray-300">GNNs (GINE/D-MPNN), Transformers, CNNs, GANs, Multi-Agent Systems, RAG Pipelines</p>
+                            </div>
+                            <div className="md:col-span-2">
+                                <h3 className="mb-2 font-bold text-white">Robotics / IoT</h3>
+                                <p className="text-gray-300">Hardware-in-the-loop control, PID systems, Arduino, Serial Communication, Sensor Fusion</p>
                             </div>
                         </div>
+                    </section>
+
+                    {/* Selected Projects */}
+                    <section>
+                        <h2 className="mb-6 text-2xl font-bold text-blue-400 border-b border-white/10 pb-2">Selected Projects</h2>
+                        <div className="space-y-8">
+
+                            <div>
+                                <div className="flex justify-between items-baseline flex-wrap">
+                                    <h3 className="text-xl font-bold text-white">Production Polymer Discovery Platform &mdash; Full-Stack ML</h3>
+                                    <span className="text-gray-400">2025 -- Present</span>
+                                </div>
+                                <p className="text-gray-400 italic mb-2">University of Notre Dame</p>
+                                <ul className="list-disc pl-5 space-y-2 text-gray-300">
+                                    <li><strong className="text-white">System Architecture:</strong> Architected and deployed a full-stack Streamlit application featuring <strong className="text-white">LLM-augmented natural language interface</strong> for complex chemical database queries.</li>
+                                    <li><strong className="text-white">Model Engineering:</strong> Engineered a <strong className="text-white">GINE Graph Neural Network ensemble</strong> for multi-task property prediction; optimized inference latency to handle batch processing of 1M+ virtual molecules.</li>
+                                    <li><strong className="text-white">Optimization Pipeline:</strong> Implemented a multi-objective Pareto optimization engine using <strong className="text-white">Tanimoto diversity constraints</strong> and synthesizability scoring, improving candidate selection quality by 40%.</li>
+                                    <li><strong className="text-white">Generative Modeling:</strong> Deployed an RNN-based SMILES generator with custom <strong className="text-white">novelty filtering logic</strong> against 6+ reference datasets to automate de novo material discovery.</li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <div className="flex justify-between items-baseline flex-wrap">
+                                    <h3 className="text-xl font-bold text-white">Autonomous HIL Laboratory (Self-Driving Lab)</h3>
+                                    <span className="text-gray-400">2023 -- Present</span>
+                                </div>
+                                <p className="text-gray-400 italic mb-2">University of Notre Dame</p>
+                                <ul className="list-disc pl-5 space-y-2 text-gray-300">
+                                    <li><strong className="text-white">Closed-Loop System:</strong> Designed an end-to-end <strong className="text-white">Hardware-in-the-loop (HIL)</strong> system integrating robotic fluid handling and PID thermal control with a Bayesian optimization core.</li>
+                                    <li><strong className="text-white">Algorithmic Impact:</strong> Developed a <strong className="text-white">Gaussian Process Regression (GPR)</strong> pipeline that autonomously explored high-dimensional chemical spaces, achieving an <strong className="text-white">80% reduction</strong> in experimental R&amp;D costs.</li>
+                                    <li><strong className="text-white">Robustness:</strong> Engineered self-correcting control logic and automated data acquisition pipelines (Serial/Python), ensuring reproducible results with zero human intervention.</li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <div className="flex justify-between items-baseline flex-wrap">
+                                    <h3 className="text-xl font-bold text-white">Vision-Language Model (VLM) for Lab Automation</h3>
+                                    <span className="text-gray-400">2025 -- Present</span>
+                                </div>
+                                <p className="text-gray-400 italic mb-2">University of Notre Dame</p>
+                                <ul className="list-disc pl-5 space-y-2 text-gray-300">
+                                    <li><strong className="text-white">Visual Grounding:</strong> Fine-tuning a <strong className="text-white">Vision-Language-Action (VLA) model</strong> to map unstructured experimental SOPs to real-time laboratory visual feeds.</li>
+                                    <li><strong className="text-white">Pipeline Dev:</strong> Building high-throughput data curation and evaluation pipelines for scientific visual comprehension, targeting SOTA performance in lab imagery grounding.</li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <div className="flex justify-between items-baseline flex-wrap">
+                                    <h3 className="text-xl font-bold text-white">Medical Anomaly Detection Pipeline</h3>
+                                    <span className="text-gray-400">2024</span>
+                                </div>
+                                <p className="text-gray-400 italic mb-2">University of Notre Dame</p>
+                                <ul className="list-disc pl-5 space-y-2 text-gray-300">
+                                    <li><strong className="text-white">Framework Design:</strong> Reframed MRI anomaly detection as an Image Quality Assessment (IQA) problem, implementing a CNN-based feature extraction pipeline that outperformed traditional baselines by <strong className="text-white">15%</strong>.</li>
+                                    <li><strong className="text-white">Benchmarking:</strong> Established a rigorous evaluation framework with standardized metrics across multiple brain MRI datasets to ensure model generalizability.</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </section>
+
+                    {/* Engineering Experience */}
+                    <section>
+                        <h2 className="mb-6 text-2xl font-bold text-blue-400 border-b border-white/10 pb-2">Engineering Experience</h2>
+                        <div className="space-y-8">
+
+                            <div>
+                                <div className="flex justify-between items-baseline flex-wrap">
+                                    <h3 className="text-xl font-bold text-white">Lead Systems Engineer &mdash; Signal Processing &amp; SDR</h3>
+                                    <span className="text-gray-400">2021 -- 2022</span>
+                                </div>
+                                <p className="text-gray-400 italic mb-2">University of Notre Dame, Notre Dame, IN</p>
+                                <ul className="list-disc pl-5 space-y-2 text-gray-300">
+                                    <li><strong className="text-white">High-Throughput Data Pipeline:</strong> Developed an automated <strong className="text-white">Python/C++ data acquisition and control pipeline</strong> for real-time Software-Defined Radio (SDR), reducing manual testing latency by <strong className="text-white">70%</strong>.</li>
+                                    <li><strong className="text-white">Hardware-Software Integration:</strong> Engineered a modular communication framework utilizing <strong className="text-white">digital signal processing (DSP)</strong> algorithms to mitigate interference and noise in high-congested RF environments.</li>
+                                    <li><strong className="text-white">Full-Stack Prototyping:</strong> Architected the transition from wired simulation models to wireless hardware implementations, ensuring system-level robustness and data integrity.</li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <div className="flex justify-between items-baseline flex-wrap">
+                                    <h3 className="text-xl font-bold text-white">Project Lead &mdash; RF Systems &amp; Hardware Optimization</h3>
+                                    <span className="text-gray-400">2019 -- 2020</span>
+                                </div>
+                                <p className="text-gray-400 italic mb-2">National Chung Cheng University, Taiwan</p>
+                                <ul className="list-disc pl-5 space-y-2 text-gray-300">
+                                    <li><strong className="text-white">Award-Winning System Design:</strong> Led a multidisciplinary team to <strong className="text-white">1st place</strong> in the IEEE MTT-S International Competition by developing a high-efficiency wearable energy harvester.</li>
+                                    <li><strong className="text-white">Optimization &amp; Simulation:</strong> Leveraged high-fidelity simulation tools (HFSS/ADS) to optimize antenna parameters, achieving a <strong className="text-white">&minus;24.4 dB return loss</strong> and 5.18 dB gain at 2.45 GHz.</li>
+                                    <li><strong className="text-white">Analytical Validation:</strong> Conducted rigorous hardware validation via VNA analysis, bridging the gap between theoretical modeling and physical system performance.</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </section>
+
+                    {/* Publications */}
+                    <section>
+                        <h2 className="mb-6 text-2xl font-bold text-blue-400 border-b border-white/10 pb-2">Publications</h2>
+                        <ul className="space-y-5 text-gray-300">
+                            <li>
+                                <p><strong className="text-white">Xu, G.*</strong>, Zhang, R., &amp; Luo, T. &ldquo;Self-Driving Laboratory Optimizes the Lower Critical Solution Temperature of Thermoresponsive Polymers.&rdquo; <em className="text-gray-400">Advanced Intelligent Discovery</em>, e202500177, 2025.</p>
+                            </li>
+                            <li>
+                                <p>Zhang, R.*, Xu, J., Zhang, H., <strong className="text-white">Xu, G.</strong>, &amp; Luo, T. &ldquo;Active learning-guided exploration of thermally conductive polymers under strain.&rdquo; <em className="text-gray-400">Digital Discovery</em>, 4(3), 812–823, 2025.</p>
+                            </li>
+                            <li>
+                                <p>Pan, Z.*, Xia, J., Yan, Z., <strong className="text-white">Xu, G.</strong>, et al. &ldquo;Rethinking Medical Anomaly Detection in Brain MRI.&rdquo; <em className="text-gray-400">arXiv</em> 2408.08228, 2024.</p>
+                            </li>
+                            <li>
+                                <p>Song, K.*, <strong className="text-white">Xu, G.*</strong>, et al. &ldquo;ML-Assisted 3D Printing of Thermoelectric Materials.&rdquo; <em className="text-gray-400">J. Mater. Chem. A</em>, 2024.</p>
+                            </li>
+                            <li>
+                                <p><strong className="text-white">Xu, G.*</strong>, et al. &ldquo;Harvesting Electromagnetic Energy in Air.&rdquo; <em className="text-gray-400">IEEE Microwave Magazine</em>, 21(6), 88–95, 2020.</p>
+                            </li>
+                        </ul>
+                    </section>
+
+                    {/* Awards */}
+                    <section>
+                        <h2 className="mb-6 text-2xl font-bold text-blue-400 border-b border-white/10 pb-2">Awards &amp; Recognition</h2>
+                        <ul className="space-y-4 text-gray-300">
+                            <li>
+                                <div className="flex justify-between items-baseline flex-wrap">
+                                    <strong className="text-white">1st Place &mdash; IEEE MTT-S Student Design Competition</strong>
+                                    <span className="text-gray-400">2019</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="flex justify-between items-baseline flex-wrap">
+                                    <strong className="text-white">President Scholarship (Top 2%) &amp; Director Scholarship (Top 5%, 2&times;)</strong>
+                                    <span className="text-gray-400">2019 -- 2021</span>
+                                </div>
+                                <p className="text-sm text-gray-500">National Chung Cheng University</p>
+                            </li>
+                            <li>
+                                <div className="flex justify-between items-baseline flex-wrap">
+                                    <strong className="text-white">Prof. Chun-Hsiung Chen Scholarship</strong>
+                                    <span className="text-gray-400">2020</span>
+                                </div>
+                                <p className="text-sm text-gray-500">Academic Excellence</p>
+                            </li>
+                        </ul>
                     </section>
 
                 </div>
