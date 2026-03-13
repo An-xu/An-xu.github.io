@@ -32,10 +32,7 @@ export default function Home() {
               <h2 className="text-3xl font-bold border-l-4 border-blue-500 pl-4">About Me</h2>
               <div className="prose prose-invert prose-lg text-gray-300 leading-relaxed">
                 <p>
-                  I am an electrical and mechanical engineer with expertise in AI, autonomous lab systems, wireless communication, and molecular dynamics (MD) simulation research. My work focuses on advancing system automation, and real-time sensor data management.
-                </p>
-                <p>
-                  I have a passion for integrating cutting-edge technologies to streamline workflows and drive innovation across disciplines, combining AI, simulation, and engineering principles. My goal is to continually push the boundaries of automation and optimization in research and engineering.
+                  I'm a PhD candidate at the University of Notre Dame, designing autonomous laboratory systems that use LLM multi-agent frameworks and Bayesian optimization to accelerate materials discovery. My background spans mechanical engineering, RF/wireless systems, and AI, and I'm most interested in the question of how far we can push machines to do science on their own.
                 </p>
               </div>
             </section>
